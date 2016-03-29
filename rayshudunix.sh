@@ -6,6 +6,7 @@ echo \(default is ~\/.steam\steam\/steamapps\/common\/Team\ Fortress\ 2\/tf\/cus
 echo
 echo
 sudo apt-get install git
+clear
 OPTIONS2="Change Continue"
 select opt in $OPTIONS2; do
  if [ "$opt" = "Change" ]; then
