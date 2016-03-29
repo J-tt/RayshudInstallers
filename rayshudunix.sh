@@ -5,6 +5,7 @@ echo Please Enter your \install location
 echo \(default is ~\/.steam\steam\/steamapps\/common\/Team\ Fortress\ 2\/tf\/custom\/\)
 echo
 echo
+sudo apt-get install git
 OPTIONS2="Change Continue"
 select opt in $OPTIONS2; do
  if [ "$opt" = "Change" ]; then
